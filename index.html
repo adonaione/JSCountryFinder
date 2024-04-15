@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Finder</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- link css to html  -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- link the JS to the HTML  -->
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="intro">Welcome to Country Finder</h1>
+        <p class="prompt">Please enter the country you would like to learn about below.</p>
+        <form id="countryForm">
+            <input type="text" id="countryInput" placeholder="Enter a Country Name" required>
+            <button type="submit">Find Country Info</button>
+        </form>
+        <div id="countryInfo">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Country Name</h5>
+                        <p class="card-text">Country Name</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>
